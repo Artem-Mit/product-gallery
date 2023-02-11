@@ -1,0 +1,15 @@
+.product__cart-add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 174px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #F1D264;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

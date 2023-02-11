@@ -1,0 +1,12 @@
+.product__title {
+  width: 284px;
+  height: 40px;
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}

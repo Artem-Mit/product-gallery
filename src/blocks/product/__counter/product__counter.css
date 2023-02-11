@@ -1,0 +1,8 @@
+.product__counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  border: 1px solid #ECF0F4;
+  border-radius: 5px;
+}

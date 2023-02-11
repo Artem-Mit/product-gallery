@@ -1,0 +1,12 @@
+.product__price {
+  max-height: 22px;
+  display: flex;
+  align-items: center;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+

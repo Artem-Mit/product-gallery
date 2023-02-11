@@ -1,0 +1,13 @@
+.product__compare-btn {
+  display: block;
+  padding: 0;
+  height: 34px;
+  width: 34px;
+  background-color: #fff;
+  background-image: url(../../../images/compare_icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}

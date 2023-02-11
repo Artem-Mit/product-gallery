@@ -1,0 +1,12 @@
+.owl-dot {
+  background: fixed !important;
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background-color: #00000033 !important;
+  z-index: 5;
+}
+
+button.owl-dot.active {
+  background-color: #F1D264 !important;
+}

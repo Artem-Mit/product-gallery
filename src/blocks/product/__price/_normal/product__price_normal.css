@@ -1,0 +1,8 @@
+.product__price_normal {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.product__price_normal::after{
+  content: " \20BD";
+}

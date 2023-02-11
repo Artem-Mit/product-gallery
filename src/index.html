@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="page">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item"><a href="" class="nav__list-link nav__list-link_active">Популярные товары</a></li>
+        <li class="nav__list-item"><a href="" class="nav__list-link">Недавно купили</a></li>
+        <li class="nav__list-item"><a href="" class="nav__list-link">Вас может заинтересовать</a></li>
+      </ul>
+    </nav>
+    <section class="products">
+      <div class="swiper-button-left"></div>
+      <div class="swiper">
+        <div class="swiper-wrapper"></div>
+      </div>
+      <div class="swiper-button-right"></div>
+    </section>
+  </div>
+  <template class="product-template">
+    <article class="product">
+
+      <div class="product__additional-img"></div>
+      <div class="product__help-btns-container">
+        <button class="product__like-btn"></button>
+        <button class="product__compare-btn"></button>
+      </div>
+      <div class="owl-carousel">
+      </div>
+      <h2 class="product__title"></h2>
+      <div class="product__price">
+        <p class="product__price_normal"></p>
+        <p class="product__price_stock"></p>
+      </div>
+      <div class="product__cart-container">
+        <div class="product__counter">
+          <button class="product__counter-delete-btn"></button>
+          <p class="product__counter-text">1</p>
+          <button class="product__counter-add-btn"></button>
+        </div>
+        <button class="product__cart-add-btn">
+          <div class="product__cart-add-btn-img"></div> В корзину
+        </button>
+      </div>
+    </article>
+  </template>
+</body>
+
+</html>

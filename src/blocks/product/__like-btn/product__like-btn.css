@@ -1,0 +1,14 @@
+.product__like-btn {
+  display: block;
+  padding: 0;
+  height: 34px;
+  width: 34px;
+  background-color: #fff;
+  background-image: url(../../../images/like_icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-bottom: 5px;
+}

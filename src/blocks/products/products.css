@@ -1,0 +1,5 @@
+.products {
+  display: flex;
+  max-height: 496px;
+  align-items: center;
+}

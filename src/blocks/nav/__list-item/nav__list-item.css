@@ -1,0 +1,14 @@
+.nav__list-item {
+  max-height: 34px;
+  color: #535658;
+  list-style: none;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.nav__list-item:not(:last-child) {
+  margin-right: 25px;
+}

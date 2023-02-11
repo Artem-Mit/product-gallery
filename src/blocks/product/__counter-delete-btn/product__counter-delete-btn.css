@@ -1,0 +1,11 @@
+.product__counter-delete-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  padding: 0;
+  background-color: #FFF;
+  background-image: url(../../../images/minus_icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/rubik.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__list-item/nav__list-item.css);
+@import url(../blocks/nav/__list-link/nav__list-link.css);
+@import url(../blocks/nav/__list-link/_active/nav__list-link_active.css);
+
+@import url(../blocks/products/products.css);
+
+@import url(../blocks/product/product.css);
+@import url(../blocks/product/__help-btns-container/product__help-btns-container.css);
+@import url(../blocks/product/__like-btn/product__like-btn.css);
+@import url(../blocks/product/__compare-btn/product__compare-btn.css);
+@import url(../blocks/product/__image/product__image.css);
+@import url(../blocks/product/__title/product__title.css);
+@import url(../blocks/product/__price/product__price.css);
+@import url(../blocks/product/__price/_normal/product__price_normal.css);
+@import url(../blocks/product/__price/_stock/product__price_stock.css);
+
+@import url(../blocks/product/__cart-container/product__cart-container.css);
+@import url(../blocks/product/__counter/product__counter.css);
+@import url(../blocks/product/__counter-add-btn/product__counter-add-btn.css);
+@import url(../blocks/product/__counter-delete-btn/product__counter-delete-btn.css);
+@import url(../blocks/product/__counter-text/product__counter-text.css);
+@import url(../blocks/product/__cart-add-btn/product__cart-add-btn.css);
+@import url(../blocks/product/__cart-add-btn-img/product__cart-add-btn-img.css);
+@import url(../blocks/product/__additional-img/product__additional-img.css);
+@import url(../blocks/product/__additional-img/__hit/product__additional-img_hit.css);
+@import url(../blocks/product/__additional-img/__new/product__additional-img_new.css);
+
+@import url(../blocks/swiper/swiper.css);
+@import url(../blocks/swiper/swiper-button-left/swiper-button-left.css);
+@import url(../blocks/swiper/swiper-button-right/swiper-button-right.css);
+
+@import url(../blocks/owl/__dots-container/owl__dots-container.css);
+@import url(../blocks/owl/__dot/owl-dot.css);

@@ -1,0 +1,7 @@
+.product__image {
+  height: 334px;
+  width: 334px;
+  width: 100%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
