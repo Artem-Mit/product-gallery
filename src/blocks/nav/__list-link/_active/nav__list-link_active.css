@@ -6,3 +6,11 @@
   text-transform: uppercase;
   border-bottom: none;
 }
+
+@media screen and (max-width: 500px) {
+  .nav__list-link_active {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+}

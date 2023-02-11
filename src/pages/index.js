@@ -28,22 +28,39 @@ renderProducts(defaultProducts)
 
 const swiper = new Swiper(".swiper", {
   modules: [Navigation],
-  allowTouchMove: false,
+  allowTouchMove: true,
   rewind: true,
-  slidesPerView: 4,
-  spaceBetween: 20,
+  slidesPerView: 1,
+  spaceBetween: 5,
   navigation: {
     nextEl: '.swiper-button-right',
     prevEl: '.swiper-button-left',
+  },
+  breakpoints: {
+    500: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      allowTouchMove: false,
+    }
   }
 });
 
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
-    items:1,
-    pullDrag: false,
-    freeDrag: false,
     dotsClass: 'owl__dots-container',
+    responsive: {
+      0: {
+        items:1,
+        mouseDrag: false,
+        touchDrag: false,
+        pullDrag: false,
+      },
+      550: {
+        items:1,
+        mouseDrag: true,
+        touchDrag: true,
+      }
+    }
   });
 });
 

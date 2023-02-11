@@ -12,3 +12,15 @@
 .nav__list-item:not(:last-child) {
   margin-right: 25px;
 }
+
+@media screen and (max-width: 500px) {
+  .nav__list-item {
+    max-height: 26px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .nav__list-item:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 5px;
+  }
+}

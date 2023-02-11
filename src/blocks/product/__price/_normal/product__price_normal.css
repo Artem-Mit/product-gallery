@@ -6,3 +6,9 @@
 .product__price_normal::after{
   content: " \20BD";
 }
+
+@media screen and (max-width: 500px) {
+  .product__price_normal {
+    margin-right: 16px;
+  }
+}

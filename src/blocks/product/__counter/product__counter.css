@@ -6,3 +6,10 @@
   border: 1px solid #ECF0F4;
   border-radius: 5px;
 }
+
+
+@media screen and (max-width: 500px) {
+  .product__counter {
+    display: none;
+  }
+}

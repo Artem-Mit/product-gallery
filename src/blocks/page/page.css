@@ -2,3 +2,10 @@
   margin: 0 auto;
   max-width: 1700px;
 }
+
+@media screen and (max-width: 500px) {
+  .page {
+    margin: 0 auto;
+    max-width: 260px;
+  }
+}

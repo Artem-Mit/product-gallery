@@ -10,4 +10,9 @@
   border: none;
   border-radius: 50%;
   cursor: pointer;
+  transition: all .3s ease;
+}
+
+.product__compare-btn:hover{
+  transform: scale(1.1);
 }

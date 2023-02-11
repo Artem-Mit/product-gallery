@@ -12,3 +12,10 @@
 .product:not(:last-child) {
   margin-right: 20px;
 }
+
+@media screen and (max-width: 500px) {
+  .product {
+    width: 260px;
+    height: 441px;
+  }
+}

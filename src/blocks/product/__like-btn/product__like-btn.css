@@ -11,4 +11,9 @@
   border-radius: 50%;
   cursor: pointer;
   margin-bottom: 5px;
+  transition: all .3s ease;
+}
+
+.product__like-btn:hover{
+  transform: scale(1.1);
 }

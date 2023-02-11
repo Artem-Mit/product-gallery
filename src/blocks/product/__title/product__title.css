@@ -10,3 +10,13 @@
   line-height: 20px;
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+  .product__title {
+    width: 220px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+}
