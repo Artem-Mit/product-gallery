@@ -1,5 +1,5 @@
 .product__title {
-  width: 284px;
+  max-width: 284px;
   height: 40px;
   margin: 0;
   margin-bottom: 5px;

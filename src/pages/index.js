@@ -37,10 +37,25 @@ const swiper = new Swiper(".swiper", {
     prevEl: '.swiper-button-left',
   },
   breakpoints: {
-    500: {
+    1000: {
       slidesPerView: 4,
       spaceBetween: 20,
       allowTouchMove: false,
+    },
+    700: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      allowTouchMove: true,
+    },
+    500: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      allowTouchMove: true,
+    },
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      allowTouchMove: true,
     }
   }
 });
@@ -49,16 +64,16 @@ $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
     dotsClass: 'owl__dots-container',
     responsive: {
+      1000: {
+        items:1,
+        mouseDrag: true,
+        touchDrag: true,
+      },
       0: {
         items:1,
         mouseDrag: false,
         touchDrag: false,
         pullDrag: false,
-      },
-      550: {
-        items:1,
-        mouseDrag: true,
-        touchDrag: true,
       }
     }
   });

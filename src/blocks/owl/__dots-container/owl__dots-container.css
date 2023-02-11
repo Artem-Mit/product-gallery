@@ -12,7 +12,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .owl__dots-container {
     display: none;
   }

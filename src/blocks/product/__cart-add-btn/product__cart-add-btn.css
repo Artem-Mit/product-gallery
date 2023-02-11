@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 174px;
+  max-width: 174px;
+  width: 100%;
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 500;
@@ -15,7 +16,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1375px) {
   .product__cart-add-btn {
     margin: 0 auto;
     width: 220px;

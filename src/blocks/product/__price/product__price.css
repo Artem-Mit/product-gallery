@@ -10,7 +10,7 @@
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 500px) {
   .product__price {
     margin-bottom: 20px;
   }
