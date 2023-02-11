@@ -1,11 +1,5 @@
 .products {
   display: flex;
-  max-height: 496px;
   align-items: center;
 }
 
-@media screen and (max-width: 500px){
-  .products {
-    max-height: auto;
-  }
-}

@@ -8,6 +8,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  color: #000;
   background-color: #F1D264;
   border: none;
   border-radius: 5px;
@@ -18,5 +19,6 @@
   .product__cart-add-btn {
     margin: 0 auto;
     width: 220px;
+    color: #000;
   }
 }
