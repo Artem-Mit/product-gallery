@@ -5,7 +5,7 @@
   background-image: url(../../../images/left_arrow.svg);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
   .swiper-button-left {
     display: none;
   }

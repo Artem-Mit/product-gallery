@@ -2,7 +2,13 @@
   margin-left: 86px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
+  .nav{ 
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 650px) {
   .nav{ 
     margin-left: 0px;
   }

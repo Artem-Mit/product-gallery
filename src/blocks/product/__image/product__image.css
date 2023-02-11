@@ -6,7 +6,7 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .product__image {
     height: 260px;
     width: 260px;
