@@ -65,7 +65,7 @@ const swiper = new Swiper(".swiper", {
   }
 });
 
-$(document).ready(function () {
+$(function () {
   $(".owl-carousel").owlCarousel({
     dotsClass: 'owl__dots-container',
     responsive: {
